@@ -1,5 +1,5 @@
 # TestFileMakerS
-### A test file generator that fills files with random bytes in a single director
+### A test file generator that fills files with random bytes in a single directory
 
 TestFileMakerS is a Linux portable executable created from the bash script [BTFCreate](https://github.com/Jim-JMCD/Bash-Test-File-creator/) using shc. TestFileMakerS and BTFcreate functionality are identical.
 
