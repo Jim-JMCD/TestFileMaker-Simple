@@ -84,19 +84,19 @@ _EXAMPLES_
 
 Create fifty 5GiB files containing only the randonly distributed digits 0, 1 , 2, 3 and 4   
 
-    BTFcreate -D 5 -f 5G -n 50
+    TestFilesMake -D 5 -f 5G -n 50
      
 Create a single 1MiB file containing these characters randomly distributed __!"#$%&'()*+,-./0123456789:;<=>?\@ABC__  
 
-    BTFcreate -P 35 -f 1M -n 1
+    TestFilesMake -P 35 -f 1M -n 1
      
 Same as previous, but with files being generated in the _test_files_ directory within the user's home directory. 
 
-    BTFcreate -P 35 -f 1M -n 1 -o ~/test_files
+    TestFilesMake -P 35 -f 1M -n 1 -o ~/test_files
 
 Create 1,000 1KiB files containing these characters randomly distributed __abcdefghij__  
 
-    BTFcreate -P 10 -f 1K -n 1000
+    TestFilesMake -P 10 -f 1K -n 1000
    
 _________________________________________________________________
 __WINDOWS SPARSE FILES - How to make:__
