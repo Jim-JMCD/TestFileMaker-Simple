@@ -1,7 +1,7 @@
 # TestFilesMake
 ### A test file generator that fills files with random bytes in a single directory
 
-TestFileMakerS is a Linux portable executable created from the bash script [BTFCreate](https://github.com/Jim-JMCD/Bash-Test-File-creator/) using shc. TestFileMakerS and BTFcreate functionality are identical.
+TestFilesMake is a Linux portable executable created from the bash script [BTFCreate](https://github.com/Jim-JMCD/Bash-Test-File-creator/) using shc. TestFileMakerS and BTFcreate functionality are identical.
 ### Dependency
 This requires a bash environment to run. 
 An exceutable created from the *shc* utility always requires bash. More : [Github shc](https://github.com/neurobin/shc)   
